@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+  <name>RimTheme [Flat Black]</name>
+  <author>APasz</author>
+  <supportedVersions>
+    <li>1.2</li>
+    <li>1.3</li>
+    <li>1.4</li>
+    <li>1.5</li>
+    <li>1.6</li>
+  </supportedVersions>
+  <modDependencies>
+  <li>
+      <packageId>aRandomKiwi.RimThemes</packageId>
+      <displayName>RimThemes</displayName>
+      <steamWorkshopUrl>steam://url/CommunityFilePage/1668983184</steamWorkshopUrl>
+  </li>
+  </modDependencies>
+  <packageId>APasz.RimThemeFlatBlack</packageId>
+  <description>Simple Flat Black with mainly Red highlighting, some purple may be invloved. To be used with RimThemes.</description>
+</ModMetaData>
