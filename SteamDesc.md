@@ -1,6 +1,7 @@
 A flat black interface with red and purple accents, clearer controls, and Oxanium + Exo 2 fonts.
+Rebuilt to be independant of RimThemes and more respectfully compatible.
 
-[b]Requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url], loaded before Flat Black.[/b] RimThemes is not required. Development focuses on [b]RimWorld 1.7+[/b]; 1.6 and earlier are not supported, [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2811473406]V1 can be found here[/url]
+[b]Requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2009463077]Harmony[/url], loaded before Flat Black.[/b] Development focuses on [b]RimWorld 1.7+[/b]; 1.6 and earlier are not supported, [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2811473406]V1 can be found here[/url]
 
 Configure fonts, opacity, accents and theme components in [b]Options > Mod settings > Flat Black[/b], with a live preview. Changes apply immediately and are shared across saves. Vanilla's health, status and disabled text colours are preserved.
 
