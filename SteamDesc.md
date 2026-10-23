@@ -5,7 +5,6 @@ A flat black interface with red and purple accents, clearer controls, and Oxaniu
 Configure fonts, opacity, accents and theme components in [b]Options > Mod settings > Flat Black[/b], with a live preview. Changes apply immediately and are shared across saves. Vanilla's health, status and disabled text colours are preserved.
 
 [hr][/hr]
-
 [h2]Reporting issues[/h2]
 When reporting an issue, please share your [b]Player.log[/b] so I can understand the error and check whether another mod is involved. Find it via [b]Options > General > Log file folder[/b], or under [b]Logs[/b] inside the game's save-data folder. The log resets whenever the game starts, so copy it before restarting, including after a crash. If you've already restarted once, use [b]Player-prev.log[/b].
 
