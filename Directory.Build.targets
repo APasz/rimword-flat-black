@@ -1,0 +1,26 @@
+<Project>
+  <ItemGroup>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>$(RimWorldDir)/Assembly-CSharp.dll</HintPath>
+      <Private>$(CopyGameReferences)</Private>
+    </Reference>
+    <Reference Include="UnityStubs">
+      <HintPath>$(RimWorldDir)/UnityStubs.dll</HintPath>
+      <Private>$(CopyGameReferences)</Private>
+    </Reference>
+    <Reference Include="Waylith">
+      <HintPath>$(RimWorldDir)/Waylith.dll</HintPath>
+      <Private>$(CopyGameReferences)</Private>
+    </Reference>
+    <Reference Include="0Harmony">
+      <HintPath>$(HarmonyAssemblyPath)</HintPath>
+      <Private>$(CopyGameReferences)</Private>
+    </Reference>
+  </ItemGroup>
+  <Target Name="CheckGameReferences" BeforeTargets="ResolveAssemblyReferences">
+    <Error Condition="!Exists('$(RimWorldDir)/Assembly-CSharp.dll') or !Exists('$(RimWorldDir)/UnityStubs.dll') or !Exists('$(RimWorldDir)/Waylith.dll')"
+           Text="Set RimWorldDir to a RimWorld 1.7 installation containing Assembly-CSharp.dll, UnityStubs.dll, and Waylith.dll." />
+    <Error Condition="!Exists('$(HarmonyAssemblyPath)')"
+           Text="Set HarmonyAssemblyPath to Harmony's 1.7/Assemblies/0Harmony.dll." />
+  </Target>
+</Project>

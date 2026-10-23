@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <FlatBlack_SettingsIntro>Changes apply immediately and are shared across saves.</FlatBlack_SettingsIntro>
+  <FlatBlack_Unavailable>Flat Black could not initialize. Check the game log for details.</FlatBlack_Unavailable>
+  <FlatBlack_FontPreset>UI font</FlatBlack_FontPreset>
+  <FlatBlack_Font_Vanilla>Vanilla</FlatBlack_Font_Vanilla>
+  <FlatBlack_Font_OxaniumExo2>Oxanium + Exo 2</FlatBlack_Font_OxaniumExo2>
+  <FlatBlack_FontPresetTip>Choose vanilla fonts, or Oxanium headings with Exo 2 body text. Changes apply immediately. The game supplies fallback characters.</FlatBlack_FontPresetTip>
+  <FlatBlack_Backgrounds>Theme backgrounds and panels</FlatBlack_Backgrounds>
+  <FlatBlack_Icons>Theme interface icons</FlatBlack_Icons>
+  <FlatBlack_Highlights>Theme selection highlights and separators</FlatBlack_Highlights>
+  <FlatBlack_WindowOpacity>Window opacity: {0}</FlatBlack_WindowOpacity>
+  <FlatBlack_PanelOpacity>Panel and menu opacity: {0}</FlatBlack_PanelOpacity>
+  <FlatBlack_CustomAccents>Use custom accent colours</FlatBlack_CustomAccents>
+  <FlatBlack_PrimaryAccent>Primary accent</FlatBlack_PrimaryAccent>
+  <FlatBlack_SecondaryAccent>Secondary accent</FlatBlack_SecondaryAccent>
+  <FlatBlack_Red>Red: {0}</FlatBlack_Red>
+  <FlatBlack_Green>Green: {0}</FlatBlack_Green>
+  <FlatBlack_Blue>Blue: {0}</FlatBlack_Blue>
+  <FlatBlack_Reset>Reset defaults</FlatBlack_Reset>
+  <FlatBlack_Preview>Live preview</FlatBlack_Preview>
+  <FlatBlack_Button>Button</FlatBlack_Button>
+  <FlatBlack_Disabled>Disabled</FlatBlack_Disabled>
+  <FlatBlack_Checked>Checked</FlatBlack_Checked>
+  <FlatBlack_Unchecked>Unchecked</FlatBlack_Unchecked>
+  <FlatBlack_Partial>Partial</FlatBlack_Partial>
+  <FlatBlack_Hover>Hover</FlatBlack_Hover>
+  <FlatBlack_Pressed>Pressed</FlatBlack_Pressed>
+  <FlatBlack_RadioSelected>Selected radio</FlatBlack_RadioSelected>
+  <FlatBlack_RadioUnselected>Unselected radio</FlatBlack_RadioUnselected>
+  <FlatBlack_Selected>Selected option</FlatBlack_Selected>
+  <FlatBlack_Unselected>Unselected option</FlatBlack_Unselected>
+  <FlatBlack_Healthy>Healthy text</FlatBlack_Healthy>
+  <FlatBlack_Warning>Warning text</FlatBlack_Warning>
+  <FlatBlack_DisabledText>Disabled text</FlatBlack_DisabledText>
+  <FlatBlack_BackgroundsTip>Use Flat Black backgrounds for windows, panels, buttons, tabs and menus.</FlatBlack_BackgroundsTip>
+  <FlatBlack_IconsTip>Use Flat Black interface icons, checkboxes and radio buttons. Health and status text colours remain unchanged.</FlatBlack_IconsTip>
+  <FlatBlack_HighlightsTip>Theme selection highlights and separators. Health and warning colours keep their normal meaning.</FlatBlack_HighlightsTip>
+  <FlatBlack_WindowOpacityTip>Opacity of themed windows. Panel and menu opacity is controlled separately.</FlatBlack_WindowOpacityTip>
+  <FlatBlack_PanelOpacityTip>Opacity of themed panels, menus, buttons, tabs and tooltips. Window opacity is controlled separately.</FlatBlack_PanelOpacityTip>
+  <FlatBlack_CustomAccentsTip>Replace red and purple theme accents with your chosen colours. Neutral and meaningful status colours are preserved.</FlatBlack_CustomAccentsTip>
+  <FlatBlack_PrimaryAccentTip>Replaces red theme accents, including pressed buttons and selected options.</FlatBlack_PrimaryAccentTip>
+  <FlatBlack_SecondaryAccentTip>Replaces purple theme accents.</FlatBlack_SecondaryAccentTip>
+  <FlatBlack_ResetTip>Restore Oxanium + Exo 2 fonts, theme components, opacity and accent colours to their defaults.</FlatBlack_ResetTip>
+</LanguageData>

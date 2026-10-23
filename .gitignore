@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+**/__pycache__/
+*.py[cod]
+*.user
+*.suo
+*.bak
+/dist/
+/1.7/Assets.zip
+/1.7/Assets.zip.*

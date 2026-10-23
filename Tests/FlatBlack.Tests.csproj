@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <AssemblyName>FlatBlack.Tests</AssemblyName>
+    <CopyGameReferences>true</CopyGameReferences>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="../Source/FlatBlack.csproj" />
+    <AssemblyMetadata Include="RimWorldDir" Value="$(RimWorldDir)" />
+  </ItemGroup>
+</Project>

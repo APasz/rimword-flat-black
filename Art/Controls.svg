@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="176" height="40" viewBox="0 0 176 40">
+  <defs>
+    <style>
+      .frame { fill: #181818; stroke: #707070; }
+      .on { color: #64c878; }
+    </style>
+    <g id="checkbox-frame">
+      <rect class="frame" x="2.5" y="2.5" width="19" height="19" rx="2" stroke-width="2"/>
+    </g>
+    <g id="radio-frame">
+      <circle class="frame" cx="16" cy="16" r="12" stroke-width="2.5"/>
+    </g>
+    <symbol id="CheckOff" viewBox="0 0 24 24">
+      <use href="#checkbox-frame"/>
+    </symbol>
+    <symbol id="CheckOn" viewBox="0 0 24 24">
+      <use href="#checkbox-frame"/>
+      <path class="on" d="M6.5 12.5 10 16 17.5 8.5" fill="none" stroke="currentColor"
+            stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+    </symbol>
+    <symbol id="CheckPartial" viewBox="0 0 24 24">
+      <use href="#checkbox-frame"/>
+      <rect x="6" y="10.5" width="12" height="3" rx="1.5" fill="#deb231"/>
+    </symbol>
+    <symbol id="RadioButOff" viewBox="0 0 32 32">
+      <use href="#radio-frame"/>
+    </symbol>
+    <symbol id="RadioButOn" viewBox="0 0 32 32">
+      <use href="#radio-frame"/>
+      <circle class="on" cx="16" cy="16" r="6" fill="currentColor"/>
+    </symbol>
+  </defs>
+  <use href="#CheckOff" x="4" y="8" width="24" height="24"/>
+  <use href="#CheckOn" x="36" y="8" width="24" height="24"/>
+  <use href="#CheckPartial" x="68" y="8" width="24" height="24"/>
+  <use href="#RadioButOff" x="100" y="4" width="32" height="32"/>
+  <use href="#RadioButOn" x="140" y="4" width="32" height="32"/>
+</svg>
